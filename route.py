@@ -12,7 +12,7 @@ class User:
 us1=User(username="aa", nom = "Test Test", password = "1234", email = "wqd@gm@com", rol = "Role")
 print(us1.rol)
 
-'''
+
 @app.route('/user/', methods=['GET'])
 def user():
     resposta = ""
@@ -26,4 +26,3 @@ def user():
 
 if __name__ == '__main__':
     app.run(debug=True)
-'''
